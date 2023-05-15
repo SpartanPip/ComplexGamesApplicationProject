@@ -10,4 +10,8 @@ Space bar to fire the cannon.
 Q key to switch between close and far range cannons.
 
 Objective:
-Try to hit the ships that are sailing around you with a few shots as possible. 
+Try to hit the ships that are sailing around you with a few shots as possible.
+
+Code files can be found in CannonGameUnity > Assets > Scripts.
+
+Some 3D assets were acquired from external packages that can be found in CannonGameUnity > Assets > Downloaded directory but all code was written from scratch.
