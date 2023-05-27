@@ -1,0 +1,2676 @@
+Unity Editor version:    2021.3.22f1 (b6c551784ba3)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker29
+-projectPath
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+-logFile
+Logs/AssetImportWorker29.log
+-srvPort
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 2382301363 [EditorId] 2382301363 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 2382301363 [EditorId] 2382301363 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 178.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56179
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001021 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 167.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (168ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.2 MB). Loaded Objects now: 3656.
+Memory consumption went from 136.5 MB to 133.3 MB.
+Total: 4.610346 ms (FindLiveObjects: 0.273591 ms CreateObjectMapping: 0.210830 ms MarkObjects: 3.470257 ms  DeleteObjects: 0.654632 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193905.322484 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Navy Profile.asset
+  artifactKey: Guid(02c08a0f5b9984d3cb4b601cb4dafcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Navy Profile.asset using Guid(02c08a0f5b9984d3cb4b601cb4dafcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d69dca9ca52a65e75c757bc77d2487') in 0.161152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 598.810119 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Navy Profile.asset
+  artifactKey: Guid(02c08a0f5b9984d3cb4b601cb4dafcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Navy Profile.asset using Guid(02c08a0f5b9984d3cb4b601cb4dafcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2d2117ea20c33342408bb7d7bd104a') in 0.062923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.536171 seconds.
+  path: Assets/Fonts/g-ganti-tahun-font.zip
+  artifactKey: Guid(e54566275986c482d8c9b7c4781c0e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/g-ganti-tahun-font.zip using Guid(e54566275986c482d8c9b7c4781c0e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b199107e3b6b921b2c6d2c54cf1d9d98') in 0.440391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.475253 seconds.
+  path: Assets/Fonts/g-ganti-tahun-font
+  artifactKey: Guid(83b7a1b4105254ca5b1fbfaae062cdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/g-ganti-tahun-font using Guid(83b7a1b4105254ca5b1fbfaae062cdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315ee159cfc4d3b4efef923c2ffd892') in 0.000967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015253 seconds.
+  path: Assets/Fonts/g-ganti-tahun-font/GantiTahun-8MXpM.otf
+  artifactKey: Guid(605d0cc2011d84dd2ad721d6fa91cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/g-ganti-tahun-font/GantiTahun-8MXpM.otf using Guid(605d0cc2011d84dd2ad721d6fa91cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4393a0a41a450a6a428d137e1b9c70') in 1.965999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.415243 seconds.
+  path: Assets/Fonts/GantiTahun-8MXpM SDF.asset
+  artifactKey: Guid(439430001bddc406b8197e3f07fcf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/GantiTahun-8MXpM SDF.asset using Guid(439430001bddc406b8197e3f07fcf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed9b9a6704154e25208ee16a1a4eb96') in 0.040774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.033357 seconds.
+  path: Assets/Fonts/Sigmar
+  artifactKey: Guid(bcdfbb244b12b47adba622e97f9079b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Sigmar using Guid(bcdfbb244b12b47adba622e97f9079b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587551e529e56ed729bb45cbad51e9d8') in 0.001388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031823 seconds.
+  path: Assets/Fonts/Sigmar/Sigmar-Regular SDF.asset
+  artifactKey: Guid(02bd1e512403a4c40909511b0ec796c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Sigmar/Sigmar-Regular SDF.asset using Guid(02bd1e512403a4c40909511b0ec796c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ed87648e461ffafde1bdbe1df17f9') in 0.021711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.250376 seconds.
+  path: Assets/Prefabs/Platform.prefab
+  artifactKey: Guid(48374b2cd2bed40dd8df57af2007c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platform.prefab using Guid(48374b2cd2bed40dd8df57af2007c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26688d7d0e553f332c09b6ac0c1ab985') in 1.209029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.979461 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b759725f34f14e711f6dbb3f88329') in 0.051066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.632804 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894e421007b527fdf6f46f667e5357b') in 0.021228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.177659 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71b186304a0f803fad53d3026e7d225') in 0.021844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.678301 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a02f9becfbbf33524782b52b48c9f78') in 0.020896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.092057 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ded06d122dc8efa3e023eced91fcb') in 0.020828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.004801 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7842d1e3e82407474b8fb2062ee91fd') in 0.021184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.290903 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccf82bb4a37b4b5b12167faca971b97') in 0.021153 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1411ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3706.
+Memory consumption went from 150.7 MB to 147.5 MB.
+Total: 5.043449 ms (FindLiveObjects: 0.285428 ms CreateObjectMapping: 0.148891 ms MarkObjects: 3.709029 ms  DeleteObjects: 0.898756 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.631809 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6a96bcf2d1e66149e742483d09756c') in 0.065290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.780938 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43dfe200eeb1dc62d74939fac9a4c1b') in 0.009478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.921869 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ae14ee30c47d72a0bdea808e83d663') in 0.009361 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3709.
+Memory consumption went from 150.7 MB to 147.6 MB.
+Total: 4.440132 ms (FindLiveObjects: 0.270313 ms CreateObjectMapping: 0.174775 ms MarkObjects: 3.372100 ms  DeleteObjects: 0.621969 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.987958 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edf9d2cbf1d665688506d612ea665fb') in 0.057214 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3712.
+Memory consumption went from 150.7 MB to 147.6 MB.
+Total: 4.197985 ms (FindLiveObjects: 0.256606 ms CreateObjectMapping: 0.170511 ms MarkObjects: 3.159619 ms  DeleteObjects: 0.610366 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 121.535800 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd136ffe08263153fa27f7a5e08030296') in 0.058578 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3715.
+Memory consumption went from 150.7 MB to 147.6 MB.
+Total: 5.356902 ms (FindLiveObjects: 0.392415 ms CreateObjectMapping: 0.396621 ms MarkObjects: 3.740053 ms  DeleteObjects: 0.826880 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.195203 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c24011597d398e838389969292bfd2') in 0.056323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.264100 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26a63cbcc17784f57f3d5d70103bebd') in 0.009856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.749655 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed47e832370ef6eaad407dc2451904f5') in 0.003847 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002941 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3718.
+Memory consumption went from 150.7 MB to 147.6 MB.
+Total: 4.899357 ms (FindLiveObjects: 0.418707 ms CreateObjectMapping: 0.212687 ms MarkObjects: 3.523884 ms  DeleteObjects: 0.743369 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002807 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3721.
+Memory consumption went from 150.7 MB to 147.6 MB.
+Total: 4.494345 ms (FindLiveObjects: 0.287791 ms CreateObjectMapping: 0.201574 ms MarkObjects: 3.328052 ms  DeleteObjects: 0.676031 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1260ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3724.
+Memory consumption went from 150.7 MB to 147.7 MB.
+Total: 4.415579 ms (FindLiveObjects: 0.282385 ms CreateObjectMapping: 0.226623 ms MarkObjects: 3.289686 ms  DeleteObjects: 0.616050 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167.652515 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fdbc9a780ad39f83de261483f6b01a') in 0.038433 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002971 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (437ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.1 MB). Loaded Objects now: 3727.
+Memory consumption went from 150.7 MB to 147.7 MB.
+Total: 4.899877 ms (FindLiveObjects: 0.295840 ms CreateObjectMapping: 0.194489 ms MarkObjects: 3.690505 ms  DeleteObjects: 0.717944 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.036241 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a77e66b2476a9e08f3f40b245e335') in 0.036195 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002805 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1251ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (436ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.1 MB). Loaded Objects now: 3730.
+Memory consumption went from 150.7 MB to 147.7 MB.
+Total: 4.466602 ms (FindLiveObjects: 0.270445 ms CreateObjectMapping: 0.197935 ms MarkObjects: 3.367516 ms  DeleteObjects: 0.629370 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.604898 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87c6ce1dd4458bad59f132d0000b94') in 0.031801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.535230 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa8b7d678bb4be06bcf5963f4d1237') in 0.003545 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002999 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.1 MB). Loaded Objects now: 3733.
+Memory consumption went from 150.7 MB to 147.7 MB.
+Total: 4.755491 ms (FindLiveObjects: 0.290310 ms CreateObjectMapping: 0.193554 ms MarkObjects: 3.585232 ms  DeleteObjects: 0.685543 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.093251 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e71444d54e24971bea71c5cb3798844') in 0.036323 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1280ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.1 MB). Loaded Objects now: 3736.
+Memory consumption went from 150.7 MB to 147.7 MB.
+Total: 4.480494 ms (FindLiveObjects: 0.278075 ms CreateObjectMapping: 0.213930 ms MarkObjects: 3.356116 ms  DeleteObjects: 0.631258 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.692446 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db0ac645b66f17baf6bae4c30bb1e91') in 0.031890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.056629 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2764e2f7e5d109c15b2568aa01ce8926') in 0.003600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.306011 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea91c72b86635424588756716167d51') in 0.003291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.769173 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279003808cac406cfa148103a20922c2') in 0.003311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.941512 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf3bed51cdc969e7bc9da99b445e91f') in 0.003656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.304797 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4d3ccd854de5d7e5e04b820da60066') in 0.003815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.770286 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cd7c9a2fc7f138e5497252f0759df8') in 0.003474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.640411 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924023124e90a4bcfad3ac75243d556e') in 0.003432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.946256 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad0b4f5f3404bc0b137dda114e942c6') in 0.025862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.705521 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f05bd2ae331b939475ab996a9162f61') in 0.008771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.108924 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f60af20679a15d9a61257066234cf5') in 0.010820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.790868 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce83aa6106a5c2bf450ebd60edcf7202') in 0.010295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.316279 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e767fa8d7782bff95e522ca02de4e3') in 0.009181 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007894 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.2 MB). Loaded Objects now: 3739.
+Memory consumption went from 150.9 MB to 147.7 MB.
+Total: 4.308948 ms (FindLiveObjects: 0.274289 ms CreateObjectMapping: 0.241426 ms MarkObjects: 3.118211 ms  DeleteObjects: 0.674118 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1302ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3742.
+Memory consumption went from 150.8 MB to 147.7 MB.
+Total: 5.022014 ms (FindLiveObjects: 0.324054 ms CreateObjectMapping: 0.304969 ms MarkObjects: 3.698244 ms  DeleteObjects: 0.693691 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1328ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3745.
+Memory consumption went from 150.8 MB to 147.7 MB.
+Total: 4.464482 ms (FindLiveObjects: 0.278091 ms CreateObjectMapping: 0.230204 ms MarkObjects: 3.333964 ms  DeleteObjects: 0.621359 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3748.
+Memory consumption went from 150.8 MB to 147.7 MB.
+Total: 4.441225 ms (FindLiveObjects: 0.371577 ms CreateObjectMapping: 0.199765 ms MarkObjects: 3.165738 ms  DeleteObjects: 0.703451 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 226.225242 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb60e84bc71afcb664c1e6c51031337') in 0.060497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.413460 seconds.
+  path: Assets/Prefabs/UI/Starting Menu.prefab
+  artifactKey: Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Starting Menu.prefab using Guid(20a702ec2e6424dbc81187f40785e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e66b47a9c1b31f14bc8c3236385559f') in 0.011075 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (3.1 MB). Loaded Objects now: 3751.
+Memory consumption went from 150.8 MB to 147.8 MB.
+Total: 4.357324 ms (FindLiveObjects: 0.269921 ms CreateObjectMapping: 0.184112 ms MarkObjects: 3.271524 ms  DeleteObjects: 0.630900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1230ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3754.
+Memory consumption went from 150.8 MB to 147.8 MB.
+Total: 4.326852 ms (FindLiveObjects: 0.256406 ms CreateObjectMapping: 0.246852 ms MarkObjects: 3.207611 ms  DeleteObjects: 0.615241 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1012ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3757.
+Memory consumption went from 150.9 MB to 147.8 MB.
+Total: 4.440385 ms (FindLiveObjects: 0.290831 ms CreateObjectMapping: 0.208207 ms MarkObjects: 3.234429 ms  DeleteObjects: 0.705921 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.826717 seconds.
+  path: Assets/Prefabs/UI/Central Menu Button.prefab
+  artifactKey: Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Central Menu Button.prefab using Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f21334c0798eedca3d380b435fb98') in 0.060640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/UI/Level Type Select Menu.prefab
+  artifactKey: Guid(333e691c2e92942bda5a66d252846a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Type Select Menu.prefab using Guid(333e691c2e92942bda5a66d252846a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bfc099aa6a9714f2bcdbd79a7aef69') in 0.012217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.131831 seconds.
+  path: Assets/Prefabs/UI/Central Menu Button.prefab
+  artifactKey: Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Central Menu Button.prefab using Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41fa88c6175565f12354b8c11eccc66') in 0.019286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/UI/Level Number Select Menu.prefab
+  artifactKey: Guid(df87a582954d84852bb891b9c380f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Number Select Menu.prefab using Guid(df87a582954d84852bb891b9c380f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f640409e8df08ae7c69d27265b08f94d') in 0.011533 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1302ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.1 MB). Loaded Objects now: 3760.
+Memory consumption went from 150.8 MB to 147.8 MB.
+Total: 4.371502 ms (FindLiveObjects: 0.287052 ms CreateObjectMapping: 0.197259 ms MarkObjects: 3.245585 ms  DeleteObjects: 0.640649 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.282909 seconds.
+  path: Assets/Prefabs/UI/In Game UI Menu 1.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/In Game UI Menu 1.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9718c86ccbab456f3c0b8e72ec96606') in 0.062963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.415412 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff8d03defcbfc25b08fb87ebc634ca7') in 0.010704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.055042 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b50b5dad382aa8c36846d9b0504bdb') in 0.010286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.219772 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9639e215a6c1adc917f6b72398690b4c') in 0.010154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.222757 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92927cd74e047a157fb68dfd6270ea88') in 0.012443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.471222 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea75597d82180d7efccdb733c38a22b5') in 0.010055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.185817 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d12e33888344451df4dcdcb49a74ae') in 0.010395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.646818 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4542ceaa25c9641c473a4254e75619c') in 0.011388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.678260 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e3e6b7c8c557bc1f025f7e3d80297b') in 0.010567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.762696 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb16951432cffa5905ac8935bfbbd03') in 0.010279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.349094 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc74e2a56732c960149b8fe9996739d') in 0.011331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.462311 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cdbcfa7ed40d9a000fb5bf45abb5da') in 0.009058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201319 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fac82c36c8fce0a17d82a40bd999944') in 0.008998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.468321 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2229aa715e776177f6a06d50cf587440') in 0.010797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.600189 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0241dca1c43e220eea957ba384c9bc') in 0.010809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.302791 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae406afff2c3ce356798bba96560c5ab') in 0.010645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.795976 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae68a5d628c9702a569cd03c8d33a6a') in 0.010451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.452783 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de61a9dfdb2ee28362b93f6694870f35') in 0.011486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.440944 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c562c96d0eb472daba506bb8da977f6') in 0.010135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.322046 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b141677a07bf40881ecd2bf68c80d42d') in 0.010971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.423499 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a0aceda5b0ea5092e43d5ea6bf34b2') in 0.008757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.471172 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60757050628e36286eb44e706b77c7ea') in 0.010439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.934528 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240d6c5926e5c473bd57080606faffa5') in 0.010371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642152 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfca88c116f0960e844b7cce6fd16d8') in 0.011986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.152590 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736f5fc3e557725276f4e5b6a47b5a22') in 0.011177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.918927 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74490696bd412ae75b912cf27658beba') in 0.011392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.332385 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a361693cbc309e8380406e2d966668a') in 0.010600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.453082 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6561eee2679d9b670c6ed56b0700cac5') in 0.011499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.213657 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b39a36cb27d98536c4a2625953f50db') in 0.011350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.813405 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec5974a7fa949669ca7940f64cd78ac') in 0.012477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.678493 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d652b6ac7c198166e3c5ea6d7eb850d') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.682677 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd6cde66b8a68805a44afef4cf1511') in 0.011169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.718027 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b567455e28b45706c1530b4260498dd9') in 0.010720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.482322 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896e87c34a0a9586b5d50bdfa53b0b69') in 0.011540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873856 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe72207a3e498459399aec51e894b4b') in 0.011858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.164268 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc07e81b9c1d5bf895a2144f947cd82') in 0.011288 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1347ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.2 MB). Loaded Objects now: 3763.
+Memory consumption went from 151.0 MB to 147.8 MB.
+Total: 4.536143 ms (FindLiveObjects: 0.324330 ms CreateObjectMapping: 0.197304 ms MarkObjects: 3.287114 ms  DeleteObjects: 0.726584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 893.038612 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b0773a4b83b5d4f3f47cc8acd10b9') in 0.061773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.637087 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09daf3f535b0204bd6435993e47a40b0') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.309166 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b903da54cbf0f6f186a7b35433c593c') in 0.009470 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002824 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1390ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.1 MB). Loaded Objects now: 3766.
+Memory consumption went from 150.9 MB to 147.8 MB.
+Total: 4.830132 ms (FindLiveObjects: 0.501314 ms CreateObjectMapping: 0.215636 ms MarkObjects: 3.496001 ms  DeleteObjects: 0.616339 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3769.
+Memory consumption went from 150.9 MB to 147.8 MB.
+Total: 4.546874 ms (FindLiveObjects: 0.318296 ms CreateObjectMapping: 0.234871 ms MarkObjects: 3.389124 ms  DeleteObjects: 0.603031 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3772.
+Memory consumption went from 150.9 MB to 147.8 MB.
+Total: 4.173593 ms (FindLiveObjects: 0.263187 ms CreateObjectMapping: 0.190619 ms MarkObjects: 3.120964 ms  DeleteObjects: 0.598124 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1022.030442 seconds.
+  path: Assets/Prefabs/UI/Central Menu Button.prefab
+  artifactKey: Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Central Menu Button.prefab using Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f21334c0798eedca3d380b435fb98') in 0.060363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3884887f55a70b1ceade2f210e9ab2a4') in 0.011596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.731932 seconds.
+  path: Assets/Prefabs/UI/Central Menu Button.prefab
+  artifactKey: Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Central Menu Button.prefab using Guid(2e1757ccbaa134319bc1655a752c8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabf3b0eb1d696c8610dd158b9541960') in 0.015864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2e4973c26e7e827378fe9fa2e0cc82') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.944067 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6281b5b4fed0b76f96973db220c5d1') in 0.008688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.820951 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054e5b6d1194afd61d40c87c87c8f6c') in 0.010246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.961472 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c645b5b759bbfa8bff431674a3acc8') in 0.009259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.575360 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e7a4883b35fb65a894ad5961d14b4c') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.357467 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382bdb086aac90bba9dc26a7039e8f99') in 0.009797 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1264ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.1 MB). Loaded Objects now: 3775.
+Memory consumption went from 150.9 MB to 147.9 MB.
+Total: 5.133792 ms (FindLiveObjects: 0.354277 ms CreateObjectMapping: 0.191522 ms MarkObjects: 3.840391 ms  DeleteObjects: 0.746710 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.240420 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382bdb086aac90bba9dc26a7039e8f99') in 0.056999 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002831 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.1 MB). Loaded Objects now: 3778.
+Memory consumption went from 150.9 MB to 147.9 MB.
+Total: 4.459017 ms (FindLiveObjects: 0.280104 ms CreateObjectMapping: 0.258175 ms MarkObjects: 3.260981 ms  DeleteObjects: 0.658759 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.029725 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd285edc4a19b1b82f98060bd8b4c1b9') in 0.055994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.943070 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1785ac73c2722244c7dd15b383b871') in 0.009881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.817533 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd0b2b5af28af45ee8755da28e9c0c') in 0.009711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.755796 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c8eaef422b5419d4f5d01eb559a5e0') in 0.009760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.028394 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb62086fa029ddb09d87797e809ae077') in 0.009362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.282254 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea11cbc6c3dd036fa42ec1d3d8d7c193') in 0.009388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.128721 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8b3ac0191fdf16df891bf2309d1722') in 0.009078 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002861 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.2 MB). Loaded Objects now: 3781.
+Memory consumption went from 151.0 MB to 147.9 MB.
+Total: 4.398821 ms (FindLiveObjects: 0.277796 ms CreateObjectMapping: 0.209665 ms MarkObjects: 3.210490 ms  DeleteObjects: 0.699880 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.184780 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbf766a4f3956de134651dfa5b344ef') in 0.057259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.545707 seconds.
+  path: Assets/Prefabs/UI/Level Stats UI.prefab
+  artifactKey: Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Level Stats UI.prefab using Guid(9fdfd8b758564438182ffcbd13f560c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8e6da9cb2026c8560ab30b52898d0') in 0.010639 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1281ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (3.1 MB). Loaded Objects now: 3784.
+Memory consumption went from 150.9 MB to 147.9 MB.
+Total: 4.332502 ms (FindLiveObjects: 0.283112 ms CreateObjectMapping: 0.197311 ms MarkObjects: 3.214543 ms  DeleteObjects: 0.636634 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003105 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3787.
+Memory consumption went from 150.9 MB to 147.9 MB.
+Total: 4.237278 ms (FindLiveObjects: 0.286237 ms CreateObjectMapping: 0.187872 ms MarkObjects: 3.159988 ms  DeleteObjects: 0.602314 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003049 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.1 MB). Loaded Objects now: 3790.
+Memory consumption went from 150.9 MB to 147.9 MB.
+Total: 4.574709 ms (FindLiveObjects: 0.285368 ms CreateObjectMapping: 0.220452 ms MarkObjects: 3.400944 ms  DeleteObjects: 0.666110 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367.702915 seconds.
+  path: Assets/Prefabs/Props/Vikings/glacier medium Container.prefab
+  artifactKey: Guid(fd22389c28dd74e9db2a362fc36e55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Vikings/glacier medium Container.prefab using Guid(fd22389c28dd74e9db2a362fc36e55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24816829634b5e7be58d2eff5b0c33b0') in 0.080906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_01.prefab
+  artifactKey: Guid(5e5174ec59a313d48a31da362a7bf4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_01.prefab using Guid(5e5174ec59a313d48a31da362a7bf4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573c173fb1ba2d601dac2af4817cb576') in 0.012174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_05.prefab
+  artifactKey: Guid(6f70602d588bb43499d85285982d9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_05.prefab using Guid(6f70602d588bb43499d85285982d9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43044f4b3b45bf2480ef1e70c564de76') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_03.prefab
+  artifactKey: Guid(838440234b5e6ac40912b70ff1d38863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_03.prefab using Guid(838440234b5e6ac40912b70ff1d38863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a48a86ecde9ef14445630a96d08fba') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_06.prefab
+  artifactKey: Guid(f9eb82beae0445b4f9473ee865ec8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Vikings/SM_Env_IceChunk_06.prefab using Guid(f9eb82beae0445b4f9473ee865ec8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e18845e5c62a983cfcce56020696838') in 0.011193 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

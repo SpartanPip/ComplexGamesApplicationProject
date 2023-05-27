@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ship
   - Cannon Ball
+  - Missile
+  - Water
+  - Enemy Cannon Ball
   layers:
   - Default
   - TransparentFX
@@ -13,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Dying Ship
+  - Ship
+  - Enemy Cannon Ball
   - 
   - 
   - 

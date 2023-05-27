@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker4
 -projectPath
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-55411
-Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/Canno
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 2255333453 [EditorId] 2255333453 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 3963935756 [EditorId] 3963935756 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 2255333453 [EditorId] 2255333453 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 3963935756 [EditorId] 3963935756 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 132.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 179.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Assets
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: AMD Radeon Pro 5500M (high power)
 Metal devices available: 2
@@ -74,75 +74,78 @@ Initialize mono
 Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56705
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56854
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001620 seconds.
+Registered in 0.003836 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 131.81 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (626ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (132ms)
+				RefreshPlugins (170ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003119 seconds.
+Registered in 0.008822 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
+- Completed reload, in  1.584 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1296ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1585ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1052ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (740ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (459ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (628ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,14 +153,833 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
 Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (Unknown). Loaded Objects now: 3549.
-Memory consumption went from 108.7 MB to 108.8 MB.
-Total: 3.804793 ms (FindLiveObjects: 0.255946 ms CreateObjectMapping: 0.162465 ms MarkObjects: 3.285505 ms  DeleteObjects: 0.099898 ms)
+Unloading 3177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.1 MB). Loaded Objects now: 3655.
+Memory consumption went from 136.3 MB to 133.2 MB.
+Total: 5.454240 ms (FindLiveObjects: 0.391522 ms CreateObjectMapping: 0.264407 ms MarkObjects: 4.069510 ms  DeleteObjects: 0.728055 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181884.311542 seconds.
+  path: Assets/Downloaded/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Large_01.prefab
+  artifactKey: Guid(321738444332ed24e8d7fc0d1ef11e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Large_01.prefab using Guid(321738444332ed24e8d7fc0d1ef11e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2226125c3338d63b9eb9d5b25d353a') in 1.008420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.627493 seconds.
+  path: Assets/Downloaded/PolygonPirates/Prefabs/Environments/SM_Env_Vines_Wall_02.prefab
+  artifactKey: Guid(e083095d1873f8b488e6381dbb9c2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonPirates/Prefabs/Environments/SM_Env_Vines_Wall_02.prefab using Guid(e083095d1873f8b488e6381dbb9c2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98de2808c2e369a828d3f432ecae8cc') in 0.014729 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3666.
+Memory consumption went from 137.8 MB to 134.6 MB.
+Total: 4.071018 ms (FindLiveObjects: 0.240132 ms CreateObjectMapping: 0.162362 ms MarkObjects: 3.085121 ms  DeleteObjects: 0.582813 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 392.814728 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297b9b55081751e48912fe01bab985c7') in 0.115622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.173481 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11800611f30dfe69a9af8bd21b0f585d') in 0.024503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.010001 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99d1596987340c2ed8a55e407968dc4') in 0.025542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.797965 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53bb52185a14b123d737688b576cb03') in 0.021993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.986138 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49d3a6ee24847255c3c15b353bd8324') in 0.011550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.989585 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9472cb82f76967a00c207da8512239') in 0.025252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.189629 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7664e9f38405c7220516009e0ea4cbf2') in 0.020798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980965 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaeb3c7c71485b1061031eeff81070c') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.444893 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acbe24d0dca3b1fcde71d4bb6e6150f') in 0.019389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.837753 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4392aa600647645d2d78afc4e3b79705') in 0.022241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.812991 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef1dbc047308742401f69d6495a43c8') in 0.011153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.995932 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4b6aa240441fcda8fd5b8ef657fb8b') in 0.019844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.797919 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c05333c51dc89a887ec17693e7cfcc0') in 0.013603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.799712 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069f32f2f0c7ad214d756a41867a6081') in 0.021260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795765 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b4886cbc5c83d94e6ab4a39a868bf') in 0.021418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.391336 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f551e7b769eecc576e930e7f9a871742') in 0.022224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.488529 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5104c1a862c3977fa8155bfb197e767d') in 0.024419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586335 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb589ed05118be14d723d79e6b570a40') in 0.028851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789016 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00cbf3ec7b56d2a58c11b83e130dd23') in 0.021707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.386854 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d56133a9cc9dd8fbcd9e10c2b180a27') in 0.013471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.634412 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc78f129d9919ad347b3b55bb0a967e') in 0.022040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.991771 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a60e17588f34b3461f72eb7210d68fb') in 0.021310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.794422 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7827bbc276b7b2fa74501eff58850e') in 0.025678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.614006 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f74634bddc27e0ca82c78bad726d1d') in 0.023472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.570980 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b9087d3765e7f41d887b95387074bc') in 0.022315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.424436 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c0448175a224015413ef51e68135c') in 0.042046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.379506 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295ee02541c8d0d733ef1a1f228f233b') in 0.013505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.827657 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bf749f4726ca44998d3c1c15df5dbc') in 0.015417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.394068 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04af183ec0d99ad9467cac1e20b23f49') in 0.016233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.663251 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08acb7baa475f14546b2a0ed7bea7c55') in 0.014606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.419174 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5537e82bd2a69120d9a33b2c21719976') in 0.024055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.394055 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c537327591f1aabe26427d2d26415d4a') in 0.020621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.834563 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86212502d4dcf55101f939c3048df2de') in 0.024847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.863213 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea638da4728745a75fece6a8be0df7cf') in 0.025615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.019640 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cfee8ce8f35f850f73e52c3a7aa011') in 0.024563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.865117 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e67759b149584c354fb33072cbb801e') in 0.036102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.203006 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6359bc823b93fc40ce1842a8e48caaa') in 0.023182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.220916 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c494c206467c1bf36990f1d4fb78961') in 0.041172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.863818 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1d7e839c5e90f970e7ed8f974a1e24') in 0.024509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.008177 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a681270ef2cf617a6af5e638c09547') in 0.024639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.987100 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ebf824f914c332b7c703ae22a3eab2') in 0.040694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.211640 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef262d05f07daf33b2d81a0c9559d44a') in 0.024282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.605011 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbaf2bb5178928702f0b157b8cc689b') in 0.025640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.231996 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2d97e92c85d2b8b9b6898e85df3af0') in 0.022900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.779398 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d40259446d558b0355c50fb7355cced') in 0.024633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.201440 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6b2abc7fa8e56ae26b385a61ccf1b3') in 0.051709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.749728 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e8ae59f5f8f8ee3f714b5eee362150') in 0.024506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.414102 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b437b99aafaaecc3c155a6a3beef5f') in 0.025051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176272 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c88a9e3b7181bc9e0446c22e9a8dd1') in 0.028550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.833356 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5bfd434cb8fb570f7f86c2b2e001e7') in 0.025955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.163037 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab
+  artifactKey: Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_02.prefab using Guid(aa20fb1f8fc0c534b9ece3c761be15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d54aff51af1460f3a8b75844528418') in 0.018994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.102143 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd4858c02e28f17d60fb7ea691cf571') in 0.020867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.599059 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cf38869f65093737a262e1c85b2721') in 0.027562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.777837 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb51428ef51ee4e531ea183a7c0a2e30') in 0.024522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.171222 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94726c05fd4aa43cd1104066b2fa6bca') in 0.026354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.579991 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffd7607041b59e40d3aa5a18355bd3f') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.015556 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c942f1b0afbb925dd9e8266c86d227ec') in 0.027084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.388379 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a10578552a22523b41b6afbc73c6789') in 0.024365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.646553 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1747650fdfd75b62b8e80cbe5592584') in 0.016345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.111961 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_04.prefab
+  artifactKey: Guid(34bbbcb578754d24782b09d5786905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_04.prefab using Guid(34bbbcb578754d24782b09d5786905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f000584f69e77ad5b59cb65b8d0abbd2') in 0.014891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.124375 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_06.prefab
+  artifactKey: Guid(2e125cab6d871274396100e655d03414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_06.prefab using Guid(2e125cab6d871274396100e655d03414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3c3afc731e1fdcc741c36247fefec9') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.794448 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab
+  artifactKey: Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab using Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a25ec9e01e20f525eb69eca4a656407') in 0.018000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.618498 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab
+  artifactKey: Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab using Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed0296fa149caced21ab212c6087ee0') in 0.016447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.439258 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab
+  artifactKey: Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_01.prefab using Guid(538005a95a30b614fabe8e43531f1981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88c657b33e77aff01ea44aa0ee1ad7a') in 0.012882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.352169 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab
+  artifactKey: Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab using Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb97d4389e3e977c787a637c533815e') in 0.020065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157579 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab
+  artifactKey: Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab using Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9a9d4eb9320db4480c0d680f1ae491') in 0.012529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.129767 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab
+  artifactKey: Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Beach_Pile_03.prefab using Guid(6482045c6f766334ebb03caa90228968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3a933b04eb08f3806e74db12b2c906') in 0.010108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.517626 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab
+  artifactKey: Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab using Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a50e59fa99ae293121993f60832314') in 0.010682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163748 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab
+  artifactKey: Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab using Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56f089134c1f26159127ab8d8ee383d') in 0.011022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.875091 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab
+  artifactKey: Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_Flat_Sand_02.prefab using Guid(c14b2a441bcbe1a4f94f3ec4db969ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c0cb457e914d1093c0bc05ed149c5') in 0.020599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.596260 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abd5aa53bbdb246c46fbe4ec392f24b') in 0.032068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138612 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ed08480b8769d9768e9b07813fd2a') in 0.020286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.420802 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23fd8d9e4e03d2f5d722f6095b898c') in 0.014576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.003368 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d09ccfeeebfcdf6c79048d64e1befcd') in 0.021571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.424735 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b78f3ab6cb241eea4ac0b5b1909fcf') in 0.035577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.030578 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9511d5742bda169a91385a422ebd5ccc') in 0.022887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.396301 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b7a277d8b852274ff1f893694f6b2a') in 0.022219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.613333 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f85471d96c99a6ddf87824b8d09be14') in 0.022826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.076461 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fada6340831ec7ca639aaaba95e0b67') in 0.021890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.596824 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11682c48c4462c494fbff9eda597183') in 0.021191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578040 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefe867398e75003dea336b69127e4c6') in 0.023173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.490222 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7813031b1c82bbe2f1ab188abeac299f') in 0.016447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.619526 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6bc8eccc6705e3f719cf6f1b7e4a87') in 0.020282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154181 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149679079bf594ff7667036f21050b84') in 0.011806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410145 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ab81042c31a378635191da6f151ec0') in 0.021720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.857770 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a0853f95248475f40fcc5a74ddb2aa') in 0.023606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.056359 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b000ae6002a6b21b87f7ad6c900ddcab') in 0.020762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.380319 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e5410ba7c423aa5fa8b4d0c3d1c38f') in 0.010802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.393511 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25e18a50a37347c5a294113f01f4b5') in 0.016015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197036 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7769c8f6e7cd454cc38eb4d8e95b0582') in 0.014554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797454 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b66ace3d5d5285331f6667bd950ea26') in 0.022055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.885805 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68e7c38bd4fbe1ed633064a52969f1a') in 0.012534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205118 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7f61810a6c2e53785235f81b6ce815') in 0.022036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.420159 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7aa0e2e588494e78d7115bd0c5bd8a') in 0.022472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.231017 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9800bb3dc28f9b9b115c7eb0acadbb') in 0.023587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.170733 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7d6e7099c7c65a1ee41b9e05116314') in 0.023166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.247211 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92656a7207d1a62aadc53e6bf74b9f0') in 0.022616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.840283 seconds.
+  path: Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab
+  artifactKey: Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pirates/SM_Env_GrassPatch_02.prefab using Guid(3d3746ee08967fa4fa80989f56318af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd397eb91ee08b4815f2f3146af3f1e78') in 0.021878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 751.337701 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Climate Profiles/Default Climate.asset
+  artifactKey: Guid(e1a4bf0206b48d4428e0e961e057af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Climate Profiles/Default Climate.asset using Guid(e1a4bf0206b48d4428e0e961e057af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03d5783cef733cbaa97775d9b8873c8') in 0.859058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Climate Profiles/Tundra Climate.asset
+  artifactKey: Guid(92b2d06ba4ba3c947b69441e32539403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Climate Profiles/Tundra Climate.asset using Guid(92b2d06ba4ba3c947b69441e32539403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c787d29cf5bb78c7bca2e0974fb7c74') in 0.002899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.731868 seconds.
+  path: Assets/Scripts/WeatherManager.cs
+  artifactKey: Guid(c90636c70f4d74f0e9772d58c558644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeatherManager.cs using Guid(c90636c70f4d74f0e9772d58c558644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da76b1710a78bde862099c01f5135879') in 0.402030 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1405ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3670.
+Memory consumption went from 146.3 MB to 143.1 MB.
+Total: 5.339803 ms (FindLiveObjects: 0.289782 ms CreateObjectMapping: 0.177650 ms MarkObjects: 4.286934 ms  DeleteObjects: 0.584589 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.733672 seconds.
+  path: Assets/Downloaded/Cozy Weather/COZY DOCS with gifs.docx
+  artifactKey: Guid(24be7c3f14f217e4ca2c77129c8cc3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/COZY DOCS with gifs.docx using Guid(24be7c3f14f217e4ca2c77129c8cc3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce13d9bfb1d2d6eb2b9690a3fad3d25') in 0.827244 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002912 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3673.
+Memory consumption went from 150.4 MB to 147.2 MB.
+Total: 3.958072 ms (FindLiveObjects: 0.224348 ms CreateObjectMapping: 0.126975 ms MarkObjects: 2.966952 ms  DeleteObjects: 0.639190 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,48 +994,55 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002521 seconds.
+Registered in 0.002570 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  1.501 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1445ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1502ms)
+		BeginReloadAssembly (313ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1175ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (366ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (633ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (531ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3552.
-Memory consumption went from 106.9 MB to 106.8 MB.
-Total: 4.093152 ms (FindLiveObjects: 0.314192 ms CreateObjectMapping: 0.203919 ms MarkObjects: 3.498236 ms  DeleteObjects: 0.075764 ms)
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.2 MB). Loaded Objects now: 3676.
+Memory consumption went from 150.4 MB to 147.2 MB.
+Total: 5.485829 ms (FindLiveObjects: 0.446034 ms CreateObjectMapping: 0.312429 ms MarkObjects: 4.064191 ms  DeleteObjects: 0.661317 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -225,6 +1054,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1843.023613 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Complex Forecast Profile.asset
+  artifactKey: Guid(8a6296a55ec94494fa4791955335bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Complex Forecast Profile.asset using Guid(8a6296a55ec94494fa4791955335bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32402adeed312580bc36ba76925de1dd') in 0.064660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.628312 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Complex Forecast Profile 1.asset
+  artifactKey: Guid(04b46ab7417684ed5b888500b6bdce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Complex Forecast Profile 1.asset using Guid(04b46ab7417684ed5b888500b6bdce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae53cfced464454c0c815e65d28c216') in 0.021909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.501951 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Normal Profile.asset
+  artifactKey: Guid(04b46ab7417684ed5b888500b6bdce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Normal Profile.asset using Guid(04b46ab7417684ed5b888500b6bdce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac4e5e8aaa444114628c3046b066219') in 0.020499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.376336 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Approaching Storm.asset
+  artifactKey: Guid(81a9beb2b882b67448a746cf5c6f0f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Approaching Storm.asset using Guid(81a9beb2b882b67448a746cf5c6f0f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e73531892d0cfd6888d59d56f43cd4b') in 0.022547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Storm Eye.asset
+  artifactKey: Guid(134d60bbf3db4074599790ce6df65c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Storm Eye.asset using Guid(134d60bbf3db4074599790ce6df65c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d33f73ad3c53ed45938e6408ab61fc5') in 0.021145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Cirrus Clouds.asset
+  artifactKey: Guid(28ce0162a9eccda47a345fd44e9e6e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Cirrus Clouds.asset using Guid(28ce0162a9eccda47a345fd44e9e6e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb670db184ba28e2f718225621d4201') in 0.019202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Light Snow.asset
+  artifactKey: Guid(4d539afa69e41c24592baf151ffc2e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Light Snow.asset using Guid(4d539afa69e41c24592baf151ffc2e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbc75f34305a094768e5299e931ac9e') in 0.018462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Heavy Rain.asset
+  artifactKey: Guid(94bbf17d66f5c6b4ebcd9189ba34367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Heavy Rain.asset using Guid(94bbf17d66f5c6b4ebcd9189ba34367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6657228466e0761d0ac6b436f84b682') in 0.019497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Thunder Snow.asset
+  artifactKey: Guid(fea1195d94f23fb49aec172623060b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Thunder Snow.asset using Guid(fea1195d94f23fb49aec172623060b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53280a4384bf5065d367d2c5c2325473') in 0.019341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Clear.asset
+  artifactKey: Guid(48908a08bbd076e4182bc3ca961b9c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Clear.asset using Guid(48908a08bbd076e4182bc3ca961b9c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b355aaa426131285be48d6dcc3134b') in 0.017010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Receeding Storm.asset
+  artifactKey: Guid(3500d156aa5168944b5dd4b8e84ff00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Receeding Storm.asset using Guid(3500d156aa5168944b5dd4b8e84ff00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435d526d354846eeff0786c11bb1d0d') in 0.017275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Partly Cloudy.asset
+  artifactKey: Guid(ae94c1a397a01e442a11e8b23ebb1cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Partly Cloudy.asset using Guid(ae94c1a397a01e442a11e8b23ebb1cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff0599863c20df2054d7e47e9572b19') in 0.021019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Dense Clouds.asset
+  artifactKey: Guid(ba87e1c6e54545c4e9e45759c30731f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Dense Clouds.asset using Guid(ba87e1c6e54545c4e9e45759c30731f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7668da49cb807f1657b8687ff7749b5b') in 0.020113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Thunder Storm.asset
+  artifactKey: Guid(f161b3af7360fc043927736dde8f5c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Thunder Storm.asset using Guid(f161b3af7360fc043927736dde8f5c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42ba22ac6d658d7f3ef16763b62e408') in 0.023113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Dense Fog.asset
+  artifactKey: Guid(69c9549d57701234e8b6a0047971e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Dense Fog.asset using Guid(69c9549d57701234e8b6a0047971e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b71ee338cc15678235a6f695a11e83') in 0.019559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Light Rain.asset
+  artifactKey: Guid(f2d3f1cb4e3d78a4fb7f9853c2ec899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Light Rain.asset using Guid(f2d3f1cb4e3d78a4fb7f9853c2ec899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f6c160da70fd80e51da11ca58ac408') in 0.020835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Overcast.asset
+  artifactKey: Guid(56652bb77d1606b4396767fbb07e50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Weather Profiles/Overcast.asset using Guid(56652bb77d1606b4396767fbb07e50ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce1fb5c2bbd41370b12ffb600fa9a34') in 0.025699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.579474 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Satellites/Cutout Moon.asset
+  artifactKey: Guid(680aa3b84f851c344a9d14c53c6d03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Satellites/Cutout Moon.asset using Guid(680aa3b84f851c344a9d14c53c6d03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061ac94d19d709fac419a209d126b40f') in 0.005489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.915285 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(69cdad48b38bf44fa94a06b30f5068e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(69cdad48b38bf44fa94a06b30f5068e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f453af758448b3a75bbf2e8c295df8') in 0.018805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset
+  artifactKey: Guid(179ad6118ae6348c08b23574bc28b29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset using Guid(179ad6118ae6348c08b23574bc28b29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df211402b383201d23cca83a7551abb8') in 0.021367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset
+  artifactKey: Guid(5cf1214d7a3254a4fb0e67bfd4fcd102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset using Guid(5cf1214d7a3254a4fb0e67bfd4fcd102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e780f77cb63c81da25783d06cda4508') in 0.018177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset
+  artifactKey: Guid(23c4e9be56da14128a74941b84f7c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset using Guid(23c4e9be56da14128a74941b84f7c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832b09d7e76302dfcac0c3f8e3cabd0a') in 0.018526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset
+  artifactKey: Guid(ffca13e8702a14baab7888a2e31efed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset using Guid(ffca13e8702a14baab7888a2e31efed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa582d6bbb65a43122acff1442d22c6') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset
+  artifactKey: Guid(70440fd2add8b4791b4d78798a8a9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset using Guid(70440fd2add8b4791b4d78798a8a9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb3d2a772075aefddd0c1f039c8384d') in 0.019586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset
+  artifactKey: Guid(bec671af679f548ea9ebc2f55a785255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset using Guid(bec671af679f548ea9ebc2f55a785255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd41fc206bf2cb2996df303c7edf591') in 0.020630 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

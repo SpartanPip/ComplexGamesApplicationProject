@@ -1,0 +1,393 @@
+Unity Editor version:    2021.3.22f1 (b6c551784ba3)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker25
+-projectPath
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+-logFile
+Logs/AssetImportWorker25.log
+-srvPort
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 181739273 [EditorId] 181739273 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 181739273 [EditorId] 181739273 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 173.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56093
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001244 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 164.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002523 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1440ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (648ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (543ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.1 MB). Loaded Objects now: 3656.
+Memory consumption went from 136.4 MB to 133.3 MB.
+Total: 6.342958 ms (FindLiveObjects: 0.534017 ms CreateObjectMapping: 0.318382 ms MarkObjects: 4.812120 ms  DeleteObjects: 0.677567 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193539.085090 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Sailor Profile 1.asset
+  artifactKey: Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Sailor Profile 1.asset using Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ecf80f9a1c790b34381349d8422306') in 0.796040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.124735 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Pirate Profile.asset
+  artifactKey: Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Pirate Profile.asset using Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2219f8ebf68f36f289e318ac67a3a5e') in 0.008694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.063402 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Approaching Storm.asset
+  artifactKey: Guid(c41ca5de75e9a4f01b0f692e9ef3a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Approaching Storm.asset using Guid(c41ca5de75e9a4f01b0f692e9ef3a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34527a896c24a6886767566e3c68a42') in 0.010472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Imminent Storm.asset
+  artifactKey: Guid(c48c8aac220de449aa3ad9514ea4869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Imminent Storm.asset using Guid(c48c8aac220de449aa3ad9514ea4869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047218b91c2594b7eea8cf9e41838218') in 0.005926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Storm Eye.asset
+  artifactKey: Guid(c778595141d2f4fb0ac54a481db702e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Storm Eye.asset using Guid(c778595141d2f4fb0ac54a481db702e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef327113d9cd442afd0c3373a999475') in 0.005713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Receeding Storm.asset
+  artifactKey: Guid(f6db9ec11aadc4d749aeb7f40c269713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Receeding Storm.asset using Guid(f6db9ec11aadc4d749aeb7f40c269713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091c5c919d3d0f99bf5d9f539f690e32') in 0.005077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Dust Storm.asset
+  artifactKey: Guid(7cbc6a2a1c63f4e208ddbbd383389a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Pirate Weather Profiles/Dust Storm.asset using Guid(7cbc6a2a1c63f4e208ddbbd383389a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba79154079a992605eadbadb29b74bc') in 0.005212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.986353 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Pirate Profile.asset
+  artifactKey: Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Pirate Profile.asset using Guid(3bf9ea36d48a54194bfa311343f6d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a9bd0bc2dd7f0fe818a6a98a443bf5') in 0.005331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.666360 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(6a928dbf07a294a0a8ad34fecec90fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(6a928dbf07a294a0a8ad34fecec90fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0df929d8945e247eb1e985946a1fb7') in 0.035349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset
+  artifactKey: Guid(ea206803c7c954ca5a3034af32b9c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset using Guid(ea206803c7c954ca5a3034af32b9c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3308adf01008813172f1fef35e0012b6') in 0.019118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset
+  artifactKey: Guid(77a845ed014734015abc7ed57bec47f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset using Guid(77a845ed014734015abc7ed57bec47f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d15b26f1060b4f72403dfaff02850f') in 0.017340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset
+  artifactKey: Guid(bcb98f1f8de6f451dbcbd55d587c969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset using Guid(bcb98f1f8de6f451dbcbd55d587c969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a509d5248b14da5f7c8877f511981973') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Storm Eye.asset
+  artifactKey: Guid(4d844ea253d9a40d39e1d24b0679ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Storm Eye.asset using Guid(4d844ea253d9a40d39e1d24b0679ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fb8e620fa42b2247d11ca704a94802') in 0.020162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Particle Based Clouds.asset
+  artifactKey: Guid(cd9415f7e906d4e78bdd8bd4a3998095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Particle Based Clouds.asset using Guid(cd9415f7e906d4e78bdd8bd4a3998095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97db9db82dbabe009e02df98a08beee9') in 0.017442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Snow.asset
+  artifactKey: Guid(f760b07e1317c4934b06b96b2871d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Snow.asset using Guid(f760b07e1317c4934b06b96b2871d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e275cd7741857c0b0fb40d8e7347ca52') in 0.017464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset
+  artifactKey: Guid(ed488da676f5c4ded8437ad77b24b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset using Guid(ed488da676f5c4ded8437ad77b24b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001b57d60beb5698212a8947a4e783fe') in 0.018853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset
+  artifactKey: Guid(5a16e201a3d1a4f56902e44294d37995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset using Guid(5a16e201a3d1a4f56902e44294d37995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc793cb67d6ed947d4ed90bd6868537f') in 0.020989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Snow.asset
+  artifactKey: Guid(b797e5bf466754157b2bea775febf5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Snow.asset using Guid(b797e5bf466754157b2bea775febf5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35213333f8f77b0a0102c56add3c1829') in 0.019992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Clear.asset
+  artifactKey: Guid(95bc9bf2a4de74ea594975983e647d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Clear.asset using Guid(95bc9bf2a4de74ea594975983e647d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d0af271ab7533cbc7e3a9733a1b0a') in 0.020318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset
+  artifactKey: Guid(eb004d6efacbe4b7bbfc346e86739fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset using Guid(eb004d6efacbe4b7bbfc346e86739fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ceb7501570428b960658127ea607b9') in 0.019563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset
+  artifactKey: Guid(6d19658533f954a3d820ebbaae753dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset using Guid(6d19658533f954a3d820ebbaae753dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1142ec8a2ecf2adc5e9a203052dae0d7') in 0.018494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Rain.asset
+  artifactKey: Guid(16ff4bcaec2364a59a309baab11a6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Rain.asset using Guid(16ff4bcaec2364a59a309baab11a6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8087ac192dfd773146bd306ac83075b1') in 0.017968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset
+  artifactKey: Guid(1912696f4a7d8411fa4faec3e26a1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset using Guid(1912696f4a7d8411fa4faec3e26a1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b453fd46d239d73e6f1017481480185') in 0.018973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset
+  artifactKey: Guid(da8b8a364cca141e7846900d0a8953e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset using Guid(da8b8a364cca141e7846900d0a8953e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ba5cc5aa6b7522576cd3131e24a977') in 0.017401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset
+  artifactKey: Guid(199822ee9c3624fd7bd254dc513b6096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset using Guid(199822ee9c3624fd7bd254dc513b6096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32cfb68226b99c3890fd1f4db5d4956') in 0.018607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Fog.asset
+  artifactKey: Guid(74bf001125bf14bc0a12ff582979f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Fog.asset using Guid(74bf001125bf14bc0a12ff582979f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c615b334b3c802f40869f5a0afcd59') in 0.019170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset
+  artifactKey: Guid(8fe8f425db9254f0da6473f731531bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset using Guid(8fe8f425db9254f0da6473f731531bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4050f117e4ad6abb606124bf15de40') in 0.019494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Clear.asset
+  artifactKey: Guid(cdaddb20e11ac4ce4be337c2d70e51ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Clear.asset using Guid(cdaddb20e11ac4ce4be337c2d70e51ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e67cad3d131472fbfec4f38a578032a') in 0.018767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset
+  artifactKey: Guid(faf1ef4be338e4dddbd9f65aafd23370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset using Guid(faf1ef4be338e4dddbd9f65aafd23370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93d236ca7f60e39fd8fac4a182e0a86') in 0.018123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset
+  artifactKey: Guid(1f3bdd9e156644f1d8edf4f08184b4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset using Guid(1f3bdd9e156644f1d8edf4f08184b4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023b9db4d19968947d5f74610e41b46d') in 0.018027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset
+  artifactKey: Guid(08e8f6711ab9f496583d63887a40570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset using Guid(08e8f6711ab9f496583d63887a40570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b3f762cfb19d9e1cb0b01e87667ed2') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset
+  artifactKey: Guid(e9f2d0f55aaf34f51a8b5986b55d1375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset using Guid(e9f2d0f55aaf34f51a8b5986b55d1375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85aa1901a5725229e9bb0ae9371908a') in 0.018724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset
+  artifactKey: Guid(2835512cfe0a04df0b7f44b15a7ea729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset using Guid(2835512cfe0a04df0b7f44b15a7ea729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b965e463002bc7555c81e1e7618c46d5') in 0.019088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset
+  artifactKey: Guid(1ac098302c2f44322b3c957a7f9b1ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset using Guid(1ac098302c2f44322b3c957a7f9b1ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aed450131e451309e22a844e01d845e') in 0.021112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset
+  artifactKey: Guid(1f257b9534e7f4505aed8a4b5be7c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset using Guid(1f257b9534e7f4505aed8a4b5be7c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2e5e51397c0fe67c91b950aa26c1c8') in 0.019883 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

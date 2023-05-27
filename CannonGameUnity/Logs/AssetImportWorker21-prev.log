@@ -1,0 +1,657 @@
+Unity Editor version:    2021.3.22f1 (b6c551784ba3)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 1365937035 [EditorId] 1365937035 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 1365937035 [EditorId] 1365937035 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 181.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56198
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002793 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 160.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (512ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.1 MB). Loaded Objects now: 3656.
+Memory consumption went from 136.4 MB to 133.3 MB.
+Total: 5.833511 ms (FindLiveObjects: 0.524206 ms CreateObjectMapping: 0.543336 ms MarkObjects: 4.243728 ms  DeleteObjects: 0.521539 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1342ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3659.
+Memory consumption went from 131.4 MB to 128.4 MB.
+Total: 5.423127 ms (FindLiveObjects: 0.299231 ms CreateObjectMapping: 0.302485 ms MarkObjects: 4.249207 ms  DeleteObjects: 0.571427 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190543.003714 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Viking Profile.asset
+  artifactKey: Guid(eacc8459f121a3d4c83bf331999911ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Viking Profile.asset using Guid(eacc8459f121a3d4c83bf331999911ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46168d708acbd282f114f3cd615eddc') in 0.975208 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1647ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1261ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3663.
+Memory consumption went from 135.6 MB to 132.5 MB.
+Total: 5.845284 ms (FindLiveObjects: 0.411550 ms CreateObjectMapping: 0.334627 ms MarkObjects: 4.356312 ms  DeleteObjects: 0.741833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1175.842221 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Viking Profile.asset
+  artifactKey: Guid(eacc8459f121a3d4c83bf331999911ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Forecast Profiles/Viking Profile.asset using Guid(eacc8459f121a3d4c83bf331999911ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5fb789abbb357e5c2e123015739439') in 0.034733 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1345ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (462ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3666.
+Memory consumption went from 135.6 MB to 132.5 MB.
+Total: 4.406080 ms (FindLiveObjects: 0.337749 ms CreateObjectMapping: 0.325081 ms MarkObjects: 3.189152 ms  DeleteObjects: 0.553359 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3669.
+Memory consumption went from 135.6 MB to 132.6 MB.
+Total: 4.404485 ms (FindLiveObjects: 0.283139 ms CreateObjectMapping: 0.186518 ms MarkObjects: 3.330170 ms  DeleteObjects: 0.603742 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3672.
+Memory consumption went from 135.6 MB to 132.6 MB.
+Total: 4.483529 ms (FindLiveObjects: 0.287025 ms CreateObjectMapping: 0.188924 ms MarkObjects: 3.319909 ms  DeleteObjects: 0.686851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1244ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3675.
+Memory consumption went from 135.6 MB to 132.6 MB.
+Total: 4.121920 ms (FindLiveObjects: 0.257006 ms CreateObjectMapping: 0.154502 ms MarkObjects: 3.161507 ms  DeleteObjects: 0.548183 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1375.835018 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(7af022ffddd03409488172dd51bfac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(7af022ffddd03409488172dd51bfac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1aa6971a76a62ff99e09f1779452c4') in 0.055614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Rain.asset
+  artifactKey: Guid(94d9708856ce24014988b3e0679a9f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Rain.asset using Guid(94d9708856ce24014988b3e0679a9f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c0ca2e80ed59e2fb6ce1bc002b25bd') in 0.018572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Storm Eye.asset
+  artifactKey: Guid(4d1ddf64366074281ae346b3f47be509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Storm Eye.asset using Guid(4d1ddf64366074281ae346b3f47be509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0ca508c5d26059d003af037b6d9717') in 0.019990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset
+  artifactKey: Guid(6724bd9279fab48e882857d5da4e1524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Rain.asset using Guid(6724bd9279fab48e882857d5da4e1524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6244c5d16e0e4ac50af2d341b12964fa') in 0.019250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset
+  artifactKey: Guid(85f19cdc1f5404b1b8440cfe98461d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset using Guid(85f19cdc1f5404b1b8440cfe98461d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3012a39711f91259dd771eda5368177f') in 0.017476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset
+  artifactKey: Guid(4db11f9eb0bee4630974888259157970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset using Guid(4db11f9eb0bee4630974888259157970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddf5eefb5628572fbedda995b51847d') in 0.017489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset
+  artifactKey: Guid(bf90341af626f45cdb624a25e7134687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset using Guid(bf90341af626f45cdb624a25e7134687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1b451e636aa1dd7c91c38065a37df') in 0.017526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset
+  artifactKey: Guid(5a3c9f18370704a74bdd643f2cdda891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset using Guid(5a3c9f18370704a74bdd643f2cdda891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c2873cba7f7b91d5a0fab014cbae0') in 0.022184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset
+  artifactKey: Guid(15c708300182245179e664f22c8153e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset using Guid(15c708300182245179e664f22c8153e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145bed8a18044774f58d1c67076673e8') in 0.018648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset
+  artifactKey: Guid(eb2e8b886ebd7433e85d258b776518e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset using Guid(eb2e8b886ebd7433e85d258b776518e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b544dd12644ed8ed418d5bdadbd4d') in 0.020162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset
+  artifactKey: Guid(a5edc3bf580cb48e4871cfc672f26608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Cloudy.asset using Guid(a5edc3bf580cb48e4871cfc672f26608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6dc5bb2bdc04a2e44d7d0d56179e4e') in 0.017930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset
+  artifactKey: Guid(76415e7528cad423f86b7bbdab2e217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset using Guid(76415e7528cad423f86b7bbdab2e217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81750dacd433cf6428d78abf24ca193c') in 0.019621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset
+  artifactKey: Guid(551ea53f309d240ec9fdb955a3bb35be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset using Guid(551ea53f309d240ec9fdb955a3bb35be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00291f2859ce85dafae27a8f4a26703d') in 0.018244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset
+  artifactKey: Guid(f58ba562a26ee42efb444751d0be950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset using Guid(f58ba562a26ee42efb444751d0be950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f43f522207b8b65041d94bdc7a4c9') in 0.019646 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

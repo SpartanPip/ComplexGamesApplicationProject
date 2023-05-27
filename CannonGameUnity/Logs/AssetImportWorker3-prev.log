@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker3
 -projectPath
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55411
-Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/Canno
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 475955862 [EditorId] 475955862 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 2822123867 [EditorId] 2822123867 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 475955862 [EditorId] 475955862 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 2822123867 [EditorId] 2822123867 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 129.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 288.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Assets
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: AMD Radeon Pro 5500M (high power)
 Metal devices available: 2
@@ -74,176 +74,99 @@ Initialize mono
 Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56686
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56597
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000931 seconds.
+Registered in 0.003764 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 123.55 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
+- Completed reload, in  1.089 seconds
 Domain Reload Profiling:
-	ReloadAssembly (822ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
+				RefreshPlugins (169ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002412 seconds.
+Registered in 0.008076 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
+- Completed reload, in  1.857 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1354ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1857ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1116ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1626ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (587ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1028ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (484ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (Unknown). Loaded Objects now: 3549.
-Memory consumption went from 108.8 MB to 108.8 MB.
-Total: 6.418697 ms (FindLiveObjects: 0.428516 ms CreateObjectMapping: 0.285502 ms MarkObjects: 5.545456 ms  DeleteObjects: 0.158010 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 196576.786072 seconds.
-  path: Assets/Prefabs/Ships/Boat 4.prefab
-  artifactKey: Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Boat 4.prefab using Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af7e775c2cd5a20eabbb184a5b5ca73') in 0.297188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.219759 seconds.
-  path: Assets/Prefabs/Ships/Boat 4.prefab
-  artifactKey: Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Boat 4.prefab using Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97c5243f0e0629548c6803c82f6ca0') in 0.047581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Prefabs/Ships/Boat 8.prefab
-  artifactKey: Guid(b143f01723bee1c409ca3134abb4088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Boat 8.prefab using Guid(b143f01723bee1c409ca3134abb4088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1012a386f06759dbdd99b159d75b7e3d') in 0.012774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.144633 seconds.
-  path: Assets/Prefabs/Ships/Boat 4.prefab
-  artifactKey: Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Boat 4.prefab using Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f317ba25ca04e9026ca7ad93d12c52e1') in 0.026283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Prefabs/Ships/Boat 8.prefab
-  artifactKey: Guid(b143f01723bee1c409ca3134abb4088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Boat 8.prefab using Guid(b143f01723bee1c409ca3134abb4088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdcc6d6461e6d9f7107657a3e2f5d67') in 0.012988 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003783 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.520 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1521ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1207ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (403ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (601ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (506ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3560.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 4.305373 ms (FindLiveObjects: 0.339314 ms CreateObjectMapping: 0.214802 ms MarkObjects: 3.640218 ms  DeleteObjects: 0.110053 ms)
+Unloading 3177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.1 MB). Loaded Objects now: 3655.
+Memory consumption went from 136.2 MB to 133.2 MB.
+Total: 5.352274 ms (FindLiveObjects: 0.419647 ms CreateObjectMapping: 0.333158 ms MarkObjects: 4.012050 ms  DeleteObjects: 0.571875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -255,6 +178,288 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 180568.625790 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Buildings/SM_Prop_Destroyed_House_Piece_07_Burnt.prefab
+  artifactKey: Guid(a515628d4f35e0843ae87150a1d4489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Buildings/SM_Prop_Destroyed_House_Piece_07_Burnt.prefab using Guid(a515628d4f35e0843ae87150a1d4489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d44bf1f49f8743309b97a626c8539') in 0.341321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.931450 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bridge_Stone_01.prefab
+  artifactKey: Guid(e5f76e5ba3a970c4a84dbec8f0013f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bridge_Stone_01.prefab using Guid(e5f76e5ba3a970c4a84dbec8f0013f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85028b8b678512ac8f6c5d0a5213bab') in 0.099681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_01.prefab
+  artifactKey: Guid(92d82af32628bb241ad09d2714fcb14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_01.prefab using Guid(92d82af32628bb241ad09d2714fcb14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0708566cbb3dc31819454d9966d86c') in 0.073952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_02.prefab
+  artifactKey: Guid(6f12d15fa441ca045a597687db81dd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_02.prefab using Guid(6f12d15fa441ca045a597687db81dd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5e25ec1db6ef38171e6d84e6919296') in 0.081745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_06.prefab
+  artifactKey: Guid(71c7b6405974a1842b43869de944e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_06.prefab using Guid(71c7b6405974a1842b43869de944e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f29add52ab5109b1ac7bffda406aad') in 0.209074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Small_02.prefab
+  artifactKey: Guid(e9b547fddf7c12742b48115ff7f3804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Small_02.prefab using Guid(e9b547fddf7c12742b48115ff7f3804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbb55ea50640126f4d7b6756fa75056') in 0.096209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_06.prefab
+  artifactKey: Guid(d938465d810e247488e49d2977795b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Flowers_06.prefab using Guid(d938465d810e247488e49d2977795b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c74cbe1332c84a93e9a5e5a65d6a659') in 0.086920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_04.prefab
+  artifactKey: Guid(9f3159be1e4814744a51a1a31aeb72e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_04.prefab using Guid(9f3159be1e4814744a51a1a31aeb72e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08799c04f40a3704af01e3708f9534') in 0.089429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_03.prefab
+  artifactKey: Guid(c2510d402c00b8d4ea3e1ed4b7838ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_Cluster_03.prefab using Guid(c2510d402c00b8d4ea3e1ed4b7838ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cf97828126e568ad689a6748046d73') in 0.074989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.175886 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_05.prefab
+  artifactKey: Guid(75c71fcdf9bcee142b6ae1dae85fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_05.prefab using Guid(75c71fcdf9bcee142b6ae1dae85fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97784cbcebb3c24519b96e8982d43b') in 0.111505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_09.prefab
+  artifactKey: Guid(07d02a4e5ab48b34c8028fa2ba01ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_09.prefab using Guid(07d02a4e5ab48b34c8028fa2ba01ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8b115323bfd5309ed6355abac506b5') in 0.086159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_16.prefab
+  artifactKey: Guid(10cd485e7ffbd334c94f03440b94c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_16.prefab using Guid(10cd485e7ffbd334c94f03440b94c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7a69fc4e03b51088650ee69ef252ba') in 0.078474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_15.prefab
+  artifactKey: Guid(a61ab20a61ab2e445a18e9949e56fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_15.prefab using Guid(a61ab20a61ab2e445a18e9949e56fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc47d984dbd23970393f460fd87accd9') in 0.079055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.712384 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_21.prefab
+  artifactKey: Guid(20de0569a5c24774eaec8d9d22dc8cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_21.prefab using Guid(20de0569a5c24774eaec8d9d22dc8cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b816393c3fe943b82246747a5d955bf2') in 0.104363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_24.prefab
+  artifactKey: Guid(451222aa5696e3d40b9f0841485e4a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_24.prefab using Guid(451222aa5696e3d40b9f0841485e4a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609c35e1f926c1ee9c4bf00ff7f8e686') in 0.078918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130467 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Grass_WallEdge_01.prefab
+  artifactKey: Guid(c308ec4ee06e1be4daec7c1131a49ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Grass_WallEdge_01.prefab using Guid(c308ec4ee06e1be4daec7c1131a49ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0a617c2bda41b607b4a43d07c9423') in 0.101661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Crater_01.prefab
+  artifactKey: Guid(3bbe87fa58bce5f45b8bab9eb7e029ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Crater_01.prefab using Guid(3bbe87fa58bce5f45b8bab9eb7e029ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fafb96288839a3d72a1c3ed577f7ac') in 0.102775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398112 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Farm_Row_03.prefab
+  artifactKey: Guid(3069bc1a47fd2ee459e91e95e1e765fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Farm_Row_03.prefab using Guid(3069bc1a47fd2ee459e91e95e1e765fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1fd56a9c00addf55332d83a94872c8') in 0.112722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Farm_Row_05.prefab
+  artifactKey: Guid(d20f879d2c934d941b46cf389c6ebb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Farm_Row_05.prefab using Guid(d20f879d2c934d941b46cf389c6ebb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca439eaf66355e21ab6b1866b15437bf') in 0.069012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165009 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Raised_02.prefab
+  artifactKey: Guid(d542219185af98e43ba1374a27a5e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ground_Raised_02.prefab using Guid(d542219185af98e43ba1374a27a5e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b9e751d070959df1c8c860acc46abe') in 0.029911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Hedge_04.prefab
+  artifactKey: Guid(e0f32c18aba92f94a9853fa0e7b89a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Hedge_04.prefab using Guid(e0f32c18aba92f94a9853fa0e7b89a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7f82aa8a19cc0b5bb254310d1ad02b') in 0.098249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.501497 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_04.prefab
+  artifactKey: Guid(84cf249d34a07834e920aa54e0b2f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_04.prefab using Guid(84cf249d34a07834e920aa54e0b2f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1de59ac4f2beff335e2f2ec1766b01b') in 0.102031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_05.prefab
+  artifactKey: Guid(a6f6d716fa1164e4e867006ab0a17281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_05.prefab using Guid(a6f6d716fa1164e4e867006ab0a17281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2cd2dc7be694bbe40262f40700925b') in 0.102775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_Pot_01.prefab
+  artifactKey: Guid(2be9dccb6b537ed49acb1bcefadfebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_Pot_01.prefab using Guid(2be9dccb6b537ed49acb1bcefadfebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4e63f7cfbb1c011044e631731e7c77') in 0.082952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_05.prefab
+  artifactKey: Guid(122c63babb1a78f4eb14ae5dee342079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_05.prefab using Guid(122c63babb1a78f4eb14ae5dee342079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31889143632eaab70d21b3714ef02474') in 0.080797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_04.prefab
+  artifactKey: Guid(b94a2ecc941802442b948e915803ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_04.prefab using Guid(b94a2ecc941802442b948e915803ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e03f2dc5dc60f2211b256d4c051be') in 0.080276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_Raised_01.prefab
+  artifactKey: Guid(bb7c9b9cec34f6f49ba023837a1ec668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_Raised_01.prefab using Guid(bb7c9b9cec34f6f49ba023837a1ec668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669a76f751ba38989d47850ad77c923d') in 0.085235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_Corner_01.prefab
+  artifactKey: Guid(697203acd8861074bb95b2150ae994f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Ivy_Corner_01.prefab using Guid(697203acd8861074bb95b2150ae994f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aecbbe006bb25c4a32d5a6529ef60d2') in 0.085577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_Brick_Group_07.prefab
+  artifactKey: Guid(06aa60cc7af4dc24d8bf332f1cc96655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Path_Brick_Group_07.prefab using Guid(06aa60cc7af4dc24d8bf332f1cc96655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20003fdc58cc455d9c35fdff749a0954') in 0.089167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267588 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Box_02.prefab
+  artifactKey: Guid(941b9610935d70348b825b791c402f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Box_02.prefab using Guid(941b9610935d70348b825b791c402f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fcb486f0e00d13b26c0cfcc77d6686') in 0.097763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pedestal_01_Preset_01.prefab
+  artifactKey: Guid(547fdc12cd3495941b8cc6a61ec428ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pedestal_01_Preset_01.prefab using Guid(547fdc12cd3495941b8cc6a61ec428ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bc2094aa4f6c0218a8098cc1de20fe') in 0.093538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pot_04.prefab
+  artifactKey: Guid(032c06a650015ba43bcf61fe30a6b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pot_04.prefab using Guid(032c06a650015ba43bcf61fe30a6b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f3d53eeb13c148f3cbeb8e67cdbcee') in 0.093481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Reeds_03.prefab
+  artifactKey: Guid(2b93997388764ab4aa8a4b07f0fc727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Reeds_03.prefab using Guid(2b93997388764ab4aa8a4b07f0fc727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f0f092926f64c5c60208dcabc118d7') in 0.101584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_River_Edge_01.prefab
+  artifactKey: Guid(4bdec2f82ace8e14baeb33cf757460e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_River_Edge_01.prefab using Guid(4bdec2f82ace8e14baeb33cf757460e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c2e45fe0edbdb6fac8466781cd6050') in 0.087100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pot_01.prefab
+  artifactKey: Guid(c6efdc6da1dc29241a8651dcd1622ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pot_01.prefab using Guid(c6efdc6da1dc29241a8651dcd1622ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e98999cf1483f34a5fbdb9ba4bccab1') in 0.103057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_01.prefab
+  artifactKey: Guid(818fbf9ffe287c5489125f1d37e02de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_01.prefab using Guid(818fbf9ffe287c5489125f1d37e02de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a828b5abcbe2d5158b125b9fa1f6ddb') in 0.083569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_River_Edge_02.prefab
+  artifactKey: Guid(33b6174322b710e409fe7a8544dd0c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_River_Edge_02.prefab using Guid(33b6174322b710e409fe7a8544dd0c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1404fc90811fc3f80eab06f01c42caca') in 0.089525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.272578 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_Cliff_01.prefab
+  artifactKey: Guid(08e77162937cf2048b655b4b8c53b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_Cliff_01.prefab using Guid(08e77162937cf2048b655b4b8c53b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808030251478af48fe245ad459e42dbd') in 0.103881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_Cliff_03.prefab
+  artifactKey: Guid(d85d0b2a487406846a4e6c18d8317316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_Cliff_03.prefab using Guid(d85d0b2a487406846a4e6c18d8317316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aab1bdef4ff43ae69b0084ecaa617d') in 0.097002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590377 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_StoneWall_Pillar_01.prefab
+  artifactKey: Guid(9fee80ab9220d674f99e62dd034d3a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_StoneWall_Pillar_01.prefab using Guid(9fee80ab9220d674f99e62dd034d3a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cbabd48591200027b0e90f04a7c019') in 0.104414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_02.prefab
+  artifactKey: Guid(e5cccecb30240864a81ff0740edfb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_02.prefab using Guid(e5cccecb30240864a81ff0740edfb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f97ea5951337ff058180640c393024b') in 0.110705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_03.prefab
+  artifactKey: Guid(b8bc2fd4b259aec498a8a2f2c1e26fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_03.prefab using Guid(b8bc2fd4b259aec498a8a2f2c1e26fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9bae693bac2b13ced5703b72a020c0') in 0.108268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_Stairs_01.prefab
+  artifactKey: Guid(a4304b9ab69a0754ba1dc3f63a8c0e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_Stairs_01.prefab using Guid(a4304b9ab69a0754ba1dc3f63a8c0e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ace69fe92751eb7257723be6f60e4d') in 0.092358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Pine_Cluster_05.prefab
+  artifactKey: Guid(9232679a35ae9bc4aa057b3f713ce056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Pine_Cluster_05.prefab using Guid(9232679a35ae9bc4aa057b3f713ce056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdcf6291f447d1d101aec595ab2edc2') in 0.084990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Pine_Cluster_04.prefab
+  artifactKey: Guid(4fed94019beb9b64abb39e186d48777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Pine_Cluster_04.prefab using Guid(4fed94019beb9b64abb39e186d48777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0800723c014a43440ff0057b11f9597') in 0.083967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.554108 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Thin_03.prefab
+  artifactKey: Guid(bcb591b1428330b4abc0c035a3372be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Thin_03.prefab using Guid(bcb591b1428330b4abc0c035a3372be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031982b7a8d1cad04132900587dc74c9') in 0.106114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Water_Plane_01.prefab
+  artifactKey: Guid(a8a870d55b0a06b4db17cf9263c6ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Water_Plane_01.prefab using Guid(a8a870d55b0a06b4db17cf9263c6ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac55bf8846f5f8a5ce8db820a892a690') in 0.023983 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

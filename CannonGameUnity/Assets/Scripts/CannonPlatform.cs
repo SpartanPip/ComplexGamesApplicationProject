@@ -11,15 +11,27 @@ public class CannonPlatform : MonoBehaviour
     public GameObject wheel1;
     public GameObject wheel2;
     public GameObject wheel3;
+    public GameObject mainCamera;
     private float wheel1RotationSpeed = 10f;
     private float wheel2RotationSpeed = 20f;
     private float wheel3RotationSpeed = 40f;
     public int turningGear = 1;
     AudioSource wheel1Audio;
     public AudioSource cannonAudioSource;
+    public bool firingSpecialCannonBall = false;
+    public Vector3 originalCamPos;
+    public Quaternion originalCamRot;
+    public int health;
+    private int totalHealth;
+    public HealthBar healthBar;
+    Recoil recoil;
 
     void Start()
     {
+        recoil = mainCamera.GetComponent<Recoil>();
+        totalHealth = health;
+        originalCamPos = mainCamera.transform.localPosition;
+        originalCamRot = mainCamera.transform.localRotation;
         activeCannon = cannons[0];
         wheel1Audio = wheel1.GetComponent<AudioSource>();
     }
@@ -55,9 +67,13 @@ public class CannonPlatform : MonoBehaviour
         {
             cannonAudioSource.Pause();
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !recoil.isRecoiling && !firingSpecialCannonBall)
         {
-            FireCannonBall();
+            FireCannonBall(false);
+        }
+        if (Input.GetKeyDown(KeyCode.R) && !recoil.isRecoiling && !firingSpecialCannonBall)
+        {
+            FireCannonBall(true);
         }
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -79,7 +95,7 @@ public class CannonPlatform : MonoBehaviour
 
     private void TurnLeft()
     {
-        wheel1.transform.Rotate(new Vector3(0f, -wheel1RotationSpeed * turningGear * Time.deltaTime), Space.World);
+        wheel1.transform.Rotate(new Vector3(0f, -wheel1RotationSpeed * turningGear * 3f * Time.deltaTime), Space.World);
         if (turningGear > 1)
             wheel2.transform.Rotate(new Vector3(0f, wheel2RotationSpeed * turningGear * Time.deltaTime), Space.World);
         if (turningGear > 2)
@@ -88,7 +104,7 @@ public class CannonPlatform : MonoBehaviour
 
     private void TurnRight()
     {
-        wheel1.transform.Rotate(new Vector3(0f, wheel1RotationSpeed * turningGear * Time.deltaTime), Space.World);
+        wheel1.transform.Rotate(new Vector3(0f, wheel1RotationSpeed * turningGear * 3f * Time.deltaTime), Space.World);
         if (turningGear > 1)
             wheel2.transform.Rotate(new Vector3(0f, -wheel2RotationSpeed * turningGear * Time.deltaTime), Space.World);
         if (turningGear > 2)
@@ -105,18 +121,33 @@ public class CannonPlatform : MonoBehaviour
         activeCannon.GetComponent<Cannon>().TiltDown(cannonAudioSource);
     }
 
-    private void FireCannonBall()
+    private void FireCannonBall(bool special)
     {
-        canvasManager.UpdaeShots();
+        if (special)
+            firingSpecialCannonBall = true;
+        else
+            recoil.StartRecoil();
+        canvasManager.UpdateShots();
         Transform cannonBarrel = activeCannon.GetComponent<Cannon>().cannonBarrel;
         Vector3 firingAngle = cannonBarrel.forward;
         Instantiate(cannonBallFX, cannonBarrel.position + firingAngle, cannonBarrel.rotation);
-        GameObject newCannonBall = Instantiate(cannonBall, cannonBarrel.position + firingAngle * 3f, Quaternion.Euler(firingAngle));
-        newCannonBall.GetComponent<CannonBall>().canvasManager = canvasManager;
-        if(activeCannon == cannons[0])
-            newCannonBall.GetComponent<Rigidbody>().velocity = firingAngle * 45f;
+        GameObject newCannonBallGameObject = Instantiate(cannonBall, cannonBarrel.position + firingAngle * 3f, Quaternion.Euler(firingAngle));
+        newCannonBallGameObject.transform.forward = firingAngle;
+        CannonBall newCannonBall = newCannonBallGameObject.GetComponent<CannonBall>();
+        newCannonBall.canvasManager = canvasManager;
+        newCannonBall.cannonPlatform = this;
+        newCannonBall.mainCamera = mainCamera;
+        newCannonBall.wheel1Transform = wheel1.transform;
+        if (special)
+        {
+            mainCamera.transform.parent = newCannonBallGameObject.transform;
+            mainCamera.transform.localPosition = new Vector3(0f, 1.2f, -2f);
+            newCannonBall.damage = 5;
+        }
+        if (activeCannon == cannons[0])
+            newCannonBallGameObject.GetComponent<Rigidbody>().velocity = firingAngle * 45f;
         else
-            newCannonBall.GetComponent<Rigidbody>().velocity = firingAngle * 65f;
+            newCannonBallGameObject.GetComponent<Rigidbody>().velocity = firingAngle * 65f;
     }
 
     private void ToggleCannons()
@@ -134,12 +165,23 @@ public class CannonPlatform : MonoBehaviour
         }
     }
 
-    public void ResetCannons()
+    public void Reset()
     {
+        health = totalHealth;
+        healthBar.UpdateBar(1);
         foreach (GameObject cannon in cannons)
             cannon.GetComponent<Cannon>().ResetTilt();
         turningGear = 1;
         if (activeCannon == cannons[1])
             ToggleCannons();
+    }
+
+    public void GetHit(int damage)
+    {
+        health = (int)Mathf.Clamp(health - damage, 0f, totalHealth);
+        float newHealth = Mathf.Clamp((float)health / (float)totalHealth, 0f, 1f);
+        healthBar.UpdateBar(newHealth);
+        if (health <= 0)
+            canvasManager.LoseGame();
     }
 }

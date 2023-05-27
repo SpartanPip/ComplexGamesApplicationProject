@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker11
 -projectPath
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 -logFile
 Logs/AssetImportWorker11.log
 -srvPort
-55411
-Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
-/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity
+62260
+Successfully changed project path to: /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
+/Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/SpartanPip/Desktop/CannonGame/Canno
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 3268019597 [EditorId] 3268019597 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 67245668 [EditorId] 67245668 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704560141120] Host "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 3268019597 [EditorId] 3268019597 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704515408704] Host "[IP] 10.0.0.211 [Port] 0 [Flags] 2 [Guid] 67245668 [EditorId] 67245668 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-21.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 126.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 228.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Assets
+[Subsystems] Discovering subsystems at path /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: AMD Radeon Pro 5500M (high power)
 Metal devices available: 2
@@ -74,75 +74,78 @@ Initialize mono
 Mono path[0] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56870
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002511 seconds.
+Registered in 0.001318 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 110.37 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 167.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.991 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (231ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (158ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (232ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (387ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (167ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013328 seconds.
+Registered in 0.002097 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
+- Completed reload, in  1.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1491ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (1668ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1229ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1427ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
+			SetupTypeCache (360ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (619ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (863ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (513ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (761ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,14 +153,20 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
 Launching external process: /Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (Unknown). Loaded Objects now: 3549.
-Memory consumption went from 108.7 MB to 108.8 MB.
-Total: 4.666938 ms (FindLiveObjects: 0.348242 ms CreateObjectMapping: 0.194780 ms MarkObjects: 3.988264 ms  DeleteObjects: 0.134870 ms)
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (3.1 MB). Loaded Objects now: 3656.
+Memory consumption went from 136.4 MB to 133.3 MB.
+Total: 7.592866 ms (FindLiveObjects: 0.390419 ms CreateObjectMapping: 0.397592 ms MarkObjects: 5.675445 ms  DeleteObjects: 1.128433 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,280 +179,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 186546.918568 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Normal Weather Profiles/Cirrostratus Clouds.asset
+  artifactKey: Guid(49f8daea6cd1a418d8c1c07559dee6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Normal Weather Profiles/Cirrostratus Clouds.asset using Guid(49f8daea6cd1a418d8c1c07559dee6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cf25b34740df5ef4a316760486c7c7') in 0.202925 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002732 seconds.
+Registered in 0.003181 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/ComplexGamesApplicationProject/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.437 seconds
+- Completed reload, in  1.347 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1438ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1152ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (617ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (561ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (518ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3552.
-Memory consumption went from 106.9 MB to 106.9 MB.
-Total: 3.475273 ms (FindLiveObjects: 0.250957 ms CreateObjectMapping: 0.151778 ms MarkObjects: 3.006379 ms  DeleteObjects: 0.065244 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 208306.605803 seconds.
-  path: Assets/Prefabs/Cannon Ball.prefab
-  artifactKey: Guid(feef7742679be4e4f9751dea1518867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cannon Ball.prefab using Guid(feef7742679be4e4f9751dea1518867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc8f1019dfc5f49b440ec14ec18a23') in 0.936773 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1650ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1298ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (660ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (540ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.9 KB). Loaded Objects now: 3563.
-Memory consumption went from 113.2 MB to 113.2 MB.
-Total: 4.945110 ms (FindLiveObjects: 0.428975 ms CreateObjectMapping: 0.291490 ms MarkObjects: 4.143846 ms  DeleteObjects: 0.079722 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002868 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1233ms)
-		BeginReloadAssembly (172ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (488ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Cozy/Stylized Terrain First Pass': dependency 'AddPassShader' shader 'Distant Lands/Stylized Terrain Add Pass' not found
+Refreshing native plugins compatible for Editor in 3.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3566.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 3.949445 ms (FindLiveObjects: 0.253721 ms CreateObjectMapping: 0.282961 ms MarkObjects: 3.320913 ms  DeleteObjects: 0.091231 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002715 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1289ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (562ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3569.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 3.936414 ms (FindLiveObjects: 0.411671 ms CreateObjectMapping: 0.239679 ms MarkObjects: 3.206255 ms  DeleteObjects: 0.078068 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002824 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1172ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.8 KB). Loaded Objects now: 3572.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 3.647726 ms (FindLiveObjects: 0.216472 ms CreateObjectMapping: 0.170420 ms MarkObjects: 3.133178 ms  DeleteObjects: 0.126842 ms)
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 3660.
+Memory consumption went from 135.6 MB to 132.5 MB.
+Total: 4.681541 ms (FindLiveObjects: 0.330869 ms CreateObjectMapping: 0.257310 ms MarkObjects: 3.400417 ms  DeleteObjects: 0.691950 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -457,119 +249,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 240.562658 seconds.
-  path: Assets/Prefabs/UI/Options Menu.prefab
-  artifactKey: Guid(5e696cad5925140f0ab85e67de17ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Options Menu.prefab using Guid(5e696cad5925140f0ab85e67de17ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec5a865edbe8d6f4a974c8b814df8e') in 0.055724 seconds 
+  Time since last request: 178.451474 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(68d67895b92674e7fa41e2ff2e8071e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(68d67895b92674e7fa41e2ff2e8071e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f58b353413734dcb065a9c7dd80966') in 0.053345 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002803 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.299 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1300ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1056ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (566ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (473ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (46.5 KB). Loaded Objects now: 3575.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 3.791774 ms (FindLiveObjects: 0.281070 ms CreateObjectMapping: 0.158677 ms MarkObjects: 3.279337 ms  DeleteObjects: 0.071787 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset
+  artifactKey: Guid(a52ca834398ef4c36a9b6a45f623b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Imminent Storm.asset using Guid(a52ca834398ef4c36a9b6a45f623b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c61af0e8a60d404c84d901fc3263fb') in 0.018989 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002570 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1112ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (564ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (45.9 KB). Loaded Objects now: 3578.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 4.114165 ms (FindLiveObjects: 0.255849 ms CreateObjectMapping: 0.341741 ms MarkObjects: 3.431310 ms  DeleteObjects: 0.084455 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset
+  artifactKey: Guid(b3d384eba461e466c841dd64abf917e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset using Guid(b3d384eba461e466c841dd64abf917e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef3fad7a44ac94466fb316397741c8b') in 0.018061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset
+  artifactKey: Guid(5e33373bbc6fc480c8a738076e83a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset using Guid(5e33373bbc6fc480c8a738076e83a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f561dfb5a07dfacb1de56149efc2d6f') in 0.019761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset
+  artifactKey: Guid(0b396bc9d16564302a3811004efc71ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset using Guid(0b396bc9d16564302a3811004efc71ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dfe06a2ff9c318da8519fd51205743') in 0.019934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Snow.asset
+  artifactKey: Guid(4a921924ea83145539d074411dc6797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Light Snow.asset using Guid(4a921924ea83145539d074411dc6797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b835a3b1134734897713a716630332f7') in 0.018036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset
+  artifactKey: Guid(f157bf49198c34fdcbc99a9038d0df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset using Guid(f157bf49198c34fdcbc99a9038d0df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e89830754bc8baf16fb0f53d7f42bf4') in 0.017837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset
+  artifactKey: Guid(04fbbc54c6992458da64a895dcc85af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset using Guid(04fbbc54c6992458da64a895dcc85af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b52b7ef1a9f375cbfcf38279820fd65') in 0.024240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset
+  artifactKey: Guid(80d0ea076fb544e80825c3bae932a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset using Guid(80d0ea076fb544e80825c3bae932a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e782da4e873ee28ead5771d7a255a') in 0.020643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset
+  artifactKey: Guid(93d87ed0a7ce54d6582b476f86ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Distant Storm.asset using Guid(93d87ed0a7ce54d6582b476f86ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0377a1ac29aa13013974bc09975d0466') in 0.023142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset
+  artifactKey: Guid(a654a3607431a4ad792e2f84d2459e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrostratus Clouds.asset using Guid(a654a3607431a4ad792e2f84d2459e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd572fc787edae9ac1fd729548d9f50df') in 0.018749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset
+  artifactKey: Guid(799e9edf4a9804ca58a0769ceeb67071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset using Guid(799e9edf4a9804ca58a0769ceeb67071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db5ac32e02dc5fd7bee6d4ac8d84f30') in 0.020661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset
+  artifactKey: Guid(dcaf6bda335bb427ab79e06f4f70df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset using Guid(dcaf6bda335bb427ab79e06f4f70df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab17b16ffa4a8a7c272a1830fa1c380') in 0.018776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset
+  artifactKey: Guid(f641c8b41be8840a192301e267ea81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset using Guid(f641c8b41be8840a192301e267ea81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c3f1b1c4f3b0f9e9ca518024a6c00d') in 0.018984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.294375 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Cozy Materials.asset
+  artifactKey: Guid(9811ba7ef96ef254eb2034d42353f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Cozy Materials.asset using Guid(9811ba7ef96ef254eb2034d42353f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f77c475cc90cb2e09b3276fc2fe3daa') in 0.010087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.772085 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(b07e4c6083fb34533bf470d736ce1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(b07e4c6083fb34533bf470d736ce1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2bfe8376952d24e2deb5bb985f4236') in 0.039398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset
+  artifactKey: Guid(9e14f1d6b24a04877ae49ec9c8a85459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Partly Cloudy.asset using Guid(9e14f1d6b24a04877ae49ec9c8a85459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58be246704f21f29f3a6f21bb6c5f90b') in 0.019302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset
+  artifactKey: Guid(8fffa0306e15541d798b410a284f33d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Clouds.asset using Guid(8fffa0306e15541d798b410a284f33d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98053e8695bee17e337765fbdee80365') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset
+  artifactKey: Guid(1b8408e119ed64e4c82656055cf74665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Filtered Fog.asset using Guid(1b8408e119ed64e4c82656055cf74665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145466f25957b393210a1621842f548') in 0.018687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset
+  artifactKey: Guid(5ed22185da0004f5e9a80059754cc743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Overcast.asset using Guid(5ed22185da0004f5e9a80059754cc743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6938ddfd6eb77d92f735fe77ff18df') in 0.019099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset
+  artifactKey: Guid(62fb0e7d0b51c42e3801f4da15d1ee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Storm.asset using Guid(62fb0e7d0b51c42e3801f4da15d1ee68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bee0d88db2e7a1f49b4a544250a2a6') in 0.019975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Snow.asset
+  artifactKey: Guid(c2d40d90290434cc7be5f7c7fb8d08ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Heavy Snow.asset using Guid(c2d40d90290434cc7be5f7c7fb8d08ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7246038ba2fb7e8e5193cd3d92f5bf57') in 0.020738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset
+  artifactKey: Guid(18432c529d0fd45fbb91360ef9ace882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset using Guid(18432c529d0fd45fbb91360ef9ace882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a31fc60f3ad011a66822019e5fbc77') in 0.021246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset
+  artifactKey: Guid(0c80ba23dfaae45658673083228d2eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dust Storm.asset using Guid(0c80ba23dfaae45658673083228d2eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec2df3d455fa9f87bab82d09aa734d0') in 0.019072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Clear.asset
+  artifactKey: Guid(2fef1277c46ad4ce6831c47721aed6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Clear.asset using Guid(2fef1277c46ad4ce6831c47721aed6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5969108ffffef986ae48746430e2dc4b') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Fog.asset
+  artifactKey: Guid(46656c80428e9439797433d4896aad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Dense Fog.asset using Guid(46656c80428e9439797433d4896aad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b155e6ccfde76bd948780d4b6c0540c3') in 0.018797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset
+  artifactKey: Guid(3751c86c1d1e84cf790c7b0f97faa3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset using Guid(3751c86c1d1e84cf790c7b0f97faa3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd12c6ffcd53a25aed0905f8ee4efe0') in 0.019328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset
+  artifactKey: Guid(2bde222317eb44071a4d621de4faf974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Cirrus Clouds.asset using Guid(2bde222317eb44071a4d621de4faf974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6962032b573b935ae634d634abe631') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.660729 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset
+  artifactKey: Guid(aaf6512a2a91947b3b8eb5dbc7c56388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Approaching Storm.asset using Guid(aaf6512a2a91947b3b8eb5dbc7c56388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5fe8c4bdc13788a9f14b2e1fe0693') in 0.020354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Particle Based Clouds.asset
+  artifactKey: Guid(99fe5541e0c174ff0a0172dfc94f22d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Particle Based Clouds.asset using Guid(99fe5541e0c174ff0a0172dfc94f22d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c796228008e3760e7339d878464f50a') in 0.018319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset
+  artifactKey: Guid(aef352e642ca24e7bb4f488fd6d5d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/High Altitude Clouds.asset using Guid(aef352e642ca24e7bb4f488fd6d5d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f99284753aea67beef6f32e93af7fc2') in 0.017838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset
+  artifactKey: Guid(1d48d7a3f9513474c861929027ba3346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Receeding Storm.asset using Guid(1d48d7a3f9513474c861929027ba3346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41170496c8f32af32cbcd86c3018075') in 0.018985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset
+  artifactKey: Guid(70b579775b6bb4d32a665ea935de3f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Thunder Snow.asset using Guid(70b579775b6bb4d32a665ea935de3f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63d5b890408fce322bae8fa8006b22d') in 0.019977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset
+  artifactKey: Guid(3b557a069fbd640bb98bf0d78d2c34d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mixed Clouds.asset using Guid(3b557a069fbd640bb98bf0d78d2c34d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb011225c3bbe7e9776c05b2b83d23') in 0.019634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset
+  artifactKey: Guid(09b56379eee8f4933a4d33dee801464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Hail Storm.asset using Guid(09b56379eee8f4933a4d33dee801464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde35cb3392bce34475265c496055267') in 0.019362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Clear.asset
+  artifactKey: Guid(290ead38383744af7a33a281ddf90abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Mostly Clear.asset using Guid(290ead38383744af7a33a281ddf90abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d299cb18f3282c950b780b94f1c600f') in 0.018755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset
+  artifactKey: Guid(c82e81efc54224500b31103f3c360444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Cozy Weather/Contents/Resources/Profiles/Original Weather Profiles 1/Electric Fog.asset using Guid(c82e81efc54224500b31103f3c360444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8953830c7b854f2f8e4614219edae3') in 0.018810 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

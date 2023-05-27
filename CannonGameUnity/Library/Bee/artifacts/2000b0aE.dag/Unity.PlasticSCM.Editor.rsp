@@ -93,11 +93,13 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:DISTANT_LANDS
+-define:COZY_WEATHER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"/Users/SpartanPip/Desktop/CannonGame/CannonGameUnity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"/Users/SpartanPip/Desktop/Cannon Project/CannonGameUnity/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/SpartanPip/Desktop/Cannon Project/CannonGameUnity/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/SpartanPip/Desktop/Cannon Project/CannonGameUnity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
 -r:"/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Users/SpartanPip/Desktop/Unity Editors/2021.3.22f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
